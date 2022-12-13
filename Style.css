@@ -1,0 +1,29 @@
+
+img{margin: 0px; }
+body
+    .TEXT {margin: 0px; padding: 300px; font-size:   45px; font-weight: bold; color: black; text-align: center;
+    } /*메인 폰트 수정*/
+body{
+    -ms-overflow-style: none;
+    }
+   
+   ::-webkit-scrollbar {
+         display: none;
+       }
+       
+       /*특정 부분 스크롤바 없애기*/
+       
+       .box{
+          -ms-overflow-style: none;
+       }
+       .box::-webkit-scrollbar{
+         display:none;
+       }
+body
+       .start {
+        font-family: system-ui, serif;
+        font-size: 2rem;
+        padding: 3rem;
+        border-radius: 1rem;
+        background: #ff6e6c;
+        }
